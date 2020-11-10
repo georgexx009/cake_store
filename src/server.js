@@ -10,6 +10,6 @@ app.use(setHeaders);
 app.use(bodyParser);
 
 // setting cake router
-app.use('/cake', cakeRouter);
+app.use('/cakes', cakeRouter);
 
 module.exports = app;

@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 const CakeSchema = new Schema({
 	name: {
 		type: String,		
+		unique: true,
 	},
 	price: {
 		type: Number,
